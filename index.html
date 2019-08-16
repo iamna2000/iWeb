@@ -3,24 +3,131 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Bài tập lớn</title>
-        <link href="D:\Photos/b06ad7e03c3b7247113a50024f4a3844.jpg" rel="shortcut icon"/>
-        <style> 
-            div{   
-                background-color: #ffffff;
-            }
-            body{
-                background-color:black;
-            }
-        </style>
-    
+        <title>HDA - Cửa hàng công nghệ</title>
+        <link href="D:\BTL\Images\Logo/68584466_400680960641087_9015844285173465088_n.png" rel="shortcut icon"/>
+        <link rel="stylesheet" type="text/css" href="D:\BTL\css/style.css" />
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" >
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="js/JavaScript.js"></script>
     </head>
     
     <body>
-        <div>
-            <h1>Logo here!</h1>
+        <div class="sidebar">
+            <div class="widget">
+                <div class="searchbox">
+                    <input type="text" name="s" id="s" placeholder="Search...">
+                    <a class="search-button" href="#">
+                        <i class="fa fa-search searchbutton"></i>
+                    </a>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="D:\BTL/index1.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="D:\BTL/iphone.html">Smartphone</a>
+                    </li>
+                    <li>
+                        <a href="#">SmartWatch</a>
+                    </li>
+                    <li>
+                        <a href="D:\BTL/laptop.html">Laptop</a>
+                    </li>
+                    <li>
+                        <a href="#">More Information</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact us</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="below-nav">
+                <div class="text">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <p>Địa chỉ: 696969 Nguyễn Kiệm TP. Hồ Chí Minh - Trái Đất</p>
+                    <br>
+                    <p>SĐT: 0021312323</p>
+                    <br>
+                    <br>
+                </div>
+            </div>
         </div>
-    
-    
+        <div class="header">
+            <div class="logo"> 
+                <h1 style="margin: 0">
+                    <a href="#">
+                        <img src="D:\BTL\Images\Logo/-2061037802_34492df0-c05a-429e-860b-5be47131b8a6.png" >
+                    </a>
+                </h1>
+            </div>
+            <button class="sidebar-btn">
+                    <span></span>
+            </button>
+        </div>
+        <div class="mainPage">
+            <div class="slides">
+                <input type="radio" name="r" id="r1" checked>
+                <input type="radio" name="r" id="r2">
+                <input type="radio" name="r" id="r3">
+                <input type="radio" name="r" id="r4">
+                <input type="radio" name="r" id="r5">
+                <section class="section-1 s1">
+                    <div class="text-layout">
+                        <div class="item-name">
+                        <h1>iphone</h1>
+                        </div>
+                        <div class="item-content">
+                        <p>Sản phẩm đạt chất lượng<br>Doanh thu tốt nhất trên thị trường Smartphone</p>
+                        </div>
+                        <div class="sectionbtn">
+                            <a href="index1.html" class="button" title="See More">See More</a>
+                            <a href="iphone.html" class="button" title="About us">Details</a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="videocontainer">
+                            <video autoplay muted loop class="bgVideo">
+                                <source src="D:\BTL/video/iPhone X — Introducing iPhone X — Apple.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </section>
+                <section class="section-2">
+                    <div class="slide">
+                        <img src="D:\BTL\image/GS65-3840-2160.jpg" alt="">
+                    </div>
+                </section>
+                <section class="section-3">
+                    <div class="slide">
+                        <img src="D:\BTL\Images\đồng hồ thông minh\apple watch/apple-watch-series-4-review-23-copy-4.jpg" alt="">
+                    </div>
+                </section>
+                <section class="section-4">
+                    <div class="slide">
+                        <img src="D:\BTL\image/GT75-titan-3840-2160.jpg" alt="">
+                    </div>
+                </section>
+                <section class="section-5">
+                    <div class="slide">
+                        <img src="D:\BTL\image/wallpaper_15590048375cec86a536244.jpg" alt="">
+                    </div>
+                </section>
+                <div class="navigation">
+                    <label for="r1" class="bar"></label>
+                    <label for="r2" class="bar"></label>
+                    <label for="r3" class="bar"></label>
+                    <label for="r4" class="bar"></label>
+                    <label for="r5" class="bar"></label>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
